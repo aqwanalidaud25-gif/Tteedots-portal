@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Activities</title>
+  </head>
+  <script src="script.js" defer></script>
+  <body>
+    <table width="100%">
+      <tr>
+        <td class="logo">
+          <img src="img/logo-treedots.png" />
+        </td>
+        <td class="text1" id="goHome" align="center">
+          <a href="#" data-page="index.html">Home</a>
+        </td>
+        <td class="text2" id="goHousehold" align="center">
+          <a href="#" data-page="household.html">Household</a>
+        </td>
+        <td class="text3" id="goActivities" align="center">
+          <a href="#" data-page="activities.html">Activities</a>
+        </td>
+        <td class="button" id="goLogin">
+          <span><a href="#" data-page="registerpage.html">Sign in</a></span>
+        </td>
+      </tr>
+    </table>
+
+    <section class="hero-slider">
+  <div class="arrow left" onclick="prevSlide()">❮</div>
+
+  <div class="hero-media">
+    <!-- IMAGE -->
+    <img id="sliderImage" src="img/Group 7742.png" />
+
+    <!-- VIDEO -->
+    <video id="sliderVideo" controls style="display:none;">
+      <source src="video/https://www.youtube.com/watch?v=X1BB5Ls1WVY&list=RDnWN0sz_qvng&index=3" type="video/mp4">
+      Browser kamu tidak mendukung video.
+    </video>
+
+    <!-- PLAY BUTTON -->
+    <div class="play-btn" onclick="onPlay()">▶</div>
+  </div>
+
+  <div class="arrow right" onclick="nextSlide()">❯</div>
+</section>
+
+
+    <div><h3 align="center" class="h3-activities">News update</h3></div>
+
+    <section class="activities-section">
+      <div class="activities-container">
+        <!-- CARD 1 -->
+        <div class="activity-card">
+          <img
+            src="img/106073510-15655873582ED3-CCA-081219-NicholasLim.png"
+            alt="Image"
+          />
+          <div class="card-content">
+            <h3>Title Example Title Example</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+
+            <div class="card-footer">
+              <div>
+                <span class="channel">Channel NewsAsia</span>
+                <span class="date">23 Mar 2020</span>
+              </div>
+              <div class="share-btn">🔗</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- COPY & PASTE CARD UNTUK 7 CARD LAIN -->
+        <div class="activity-card">
+          <img src="img/maxresdefault (1).png" alt="Image" />
+          <div class="card-content">
+            <h3>Title Example Title Example</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+
+            <div class="card-footer">
+              <div>
+                <span class="channel">Channel NewsAsia</span>
+                <span class="date">23 Mar 2020</span>
+              </div>
+              <div class="share-btn">🔗</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="activity-card">
+          <img
+            src="img/33577269_394934634341644_8336149136302669824_n.png"
+            alt="Image"
+          />
+          <div class="card-content">
+            <h3>Title Example Title Example</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+
+            <div class="card-footer">
+              <div>
+                <span class="channel">Channel NewsAsia</span>
+                <span class="date">23 Mar 2020</span>
+              </div>
+              <div class="share-btn">🔗</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="activity-card">
+          <img src="img/knwaste0506a.png" alt="Image" />
+          <div class="card-content">
+            <h3>Title Example Title Example</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+
+            <div class="card-footer">
+              <div>
+                <span class="channel">Channel NewsAsia</span>
+                <span class="date">23 Mar 2020</span>
+              </div>
+              <div class="share-btn">🔗</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="activity-card">
+          <img src="img/Echelon_Asia_2018_winner.png.png" alt="Image" />
+          <div class="card-content">
+            <h3>Title Example Title Example</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+
+            <div class="card-footer">
+              <div>
+                <span class="channel">Channel NewsAsia</span>
+                <span class="date">23 Mar 2020</span>
+              </div>
+              <div class="share-btn">🔗</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="activity-card">
+          <img src="img/maxresdefault (1).png" alt="Image" />
+          <div class="card-content">
+            <h3>Title Example Title Example</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+
+            <div class="card-footer">
+              <div>
+                <span class="channel">Channel NewsAsia</span>
+                <span class="date">23 Mar 2020</span>
+              </div>
+              <div class="share-btn">🔗</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="activity-card">
+          <img src="img/Treedots2 (1).png" alt="Image" />
+          <div class="card-content">
+            <h3>Title Example Title Example</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+
+            <div class="card-footer">
+              <div>
+                <span class="channel">Channel NewsAsia</span>
+                <span class="date">23 Mar 2020</span>
+              </div>
+              <div class="share-btn">🔗</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="activity-card">
+          <img
+            src="img/29791743_373881949780246_4115032016250994688_o.png"
+            alt="Image"
+          />
+          <div class="card-content">
+            <h3>Title Example Title Example</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+
+            <div class="card-footer">
+              <div>
+                <span class="channel">Channel NewsAsia</span>
+                <span class="date">23 Mar 2020</span>
+              </div>
+              <div class="share-btn">🔗</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div><h3 align="center" class="h3-activities">Our Gallery</h3></div>
+
+    <section class="gallery-section">
+      <div class="gallery-header">
+        <a href="#" class="nav-left"> Back</a>
+        <a href="#" class="nav-right">Next >></a>
+      </div>
+
+      <div class="gallery-container">
+        <!-- 12 gambar — kamu ganti src-nya nanti -->
+        <img src="img/Mask Group@2x.png" alt="" />
+        <img
+          src="img/61419974_634197427082029_456745681458036736_o.png"
+          alt=""
+        />
+        <img
+          src="img/60258398_623488094819629_6808690544860987392_n.png"
+          alt=""
+        />
+        <img src="img/ST_20180808_JJUGLY_4192703.png" alt="" />
+        <img src="img/banana.png" alt="" />
+        <img src="img/26904367_337200460115062_9190165719405320738_n 5.png" alt="" />
+        <img src="img/chicken.png" alt="" />
+        <img src="img/family.png" alt="" />
+        <img src="img/co.png" alt="" />
+        <img src="img/meja-treedots.png" alt="" />
+        <img src="img/Mask Group5.png" alt="" />
+        <img src="img/bbbbbbb.png" alt="" />
+      </div>
+
+      <div class="gallery-pagination">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+
+        <button class="arrow-btn">&#8249;</button>
+        <button class="arrow-btn">&#8250;</button>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-box">
+        <div class="footer-content">
+          <div class="footer-col">
+            <img class="brand" src="img/treedots-white-logo.png" />
+          </div>
+
+          <div class="footer-col">
+            <h4>About</h4>
+            <p>Household</p>
+            <p>Products</p>
+            <p>Reduce Food Loss</p>
+          </div>
+
+          <div class="footer-col">
+            <h4>Other</h4>
+            <p>Media</p>
+            <p>Supplier</p>
+            <p>Buyers</p>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <p>Email</p>
+            <p>FAQ</p>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          Copyright © 2017–2020 TreeDots Enterprise
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+
+  </body>
+</html>
